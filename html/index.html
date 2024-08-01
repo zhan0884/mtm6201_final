@@ -22,32 +22,68 @@
 </head>
 <body>
                <!-- BOOTSTRAP -->
-               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+               <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+               <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+               <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+               <!-- My own Html -->
 
 
                <header>
-                              <div>
-                                             <nav>
-                                                            <ul>
-                                                                           <li> <a href="#">HOME</a></li>
-                                                                           <li> <a href="about.html">ABOUT</a></li>
-                                                                           <li> <a href="contact.html">CONTACT</a></li>
-                                                                           <li> <a href="#">PORTFOLIO</a></li>
-                                                                           
-                                                            </ul>
+                              <div class="d-flex justify-content-between">
+                                             <div>
+                                             <a class="navbar-brand" href="#"> <img src="/images/icon.png" alt="icon" style="height: 45px;"></a>
+                                             </div>
+                                             <div>
+                                             <nav class="navbar navbar-expand-lg">
+                                             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                             <span class="navbar-toggler-icon"></span></button>
+                                                            
+                                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                                              
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item dropdown">
+                                                                  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                           <span class="navbar-toggler-icon"></span>
+                                                                  </a>
+                                                                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                                    <a class="dropdown-item" href="#">Home</a>
+                                                                    <a class="dropdown-item" href="about.html">About</a>
+                                                                    <a class="dropdown-item" href="#">Portfolio</a>
+                                                                    <a class="dropdown-item" href="contact.html">Contact</a>
+                                                                  </div>
+                                                                </li>
+                                                              </ul>
+                                             </div>
                                              </nav>
+                                             </div>
+                                             
                               </div>
 
                </header>
                <main>
+                              <div class="banner">
                               <div>
                               <img src="/images/banner.png" alt="banner">
-                              <h1>GREENCAT STUDIO</h1>
-                              <h2>by Liuniiu, a UX Designer</h2>
-                              <p>Your Vision, Our Mission</p>
-                              <p>Design Studio</p>
-                              <button>CONTACT</button>
                               </div>
+
+                              <div>
+                              <h1 class="fw-bold fs-1">GREENCAT STUDIO</h1>
+                              </div>
+                              <div>
+                              <h2 class="fs-4">by Liuniiu, a UX Designer</h2>
+                              </div>
+                              <div>
+                              <p>Your Vision, Our Mission</p>
+                              <p>Design Studio Based in Ottawa</p>
+                              </div>
+                              <div>
+                              <button type="button">CONTACT</button>
+                              </div>
+                              </div>
+
+
                               <hr>
                               <h2>PROJECTS PREVIEW</h2>
                               <img src="/images/web_design.png" alt="web design">
