@@ -65,23 +65,28 @@ header{
                background-color: var(--primarycolor);
               
 }
+body{
+               font-family: var(--primary-font) !important;
+               color: var(--secondarycolor) !important;
+
+}
 .banner{
-               font-family: var(--primary-font);
+               
                display: flex;
                flex-direction: column;
                align-items: center;
+               color: var(--secondarycolor) !important;
+}
+.icon_container{
+  width: 50px;
+}
+ul a{
+  color: var(--secondarycolor) !important;
+}
 
-}
-h1{
-               color: var(--secondarycolor) !important;
-}
-h2{
-               color: var(--secondarycolor) !important;
-}
+               
 p{
-               color: var(--secondarycolor) !important;
                text-align: center;
-               opacity: 65%;
 }
 button{
                background-color: var(--tertiarycolor);
@@ -92,6 +97,14 @@ button{
                
                
 }
+
+ul{
+  color: var(--secondarycolor);
+}
+footer img{
+  height: 45px;
+}
+
 
 footer{
                background-color: var(--primarycolor);
