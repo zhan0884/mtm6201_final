@@ -104,7 +104,9 @@ ul{
 footer img{
   height: 30px !important;
 }
-
+.social{
+  height: 30px !important;
+}
 
 footer{
                background-color: var(--primarycolor);
