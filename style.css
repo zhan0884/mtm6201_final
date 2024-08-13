@@ -107,6 +107,9 @@ footer img{
 .social{
   height: 30px !important;
 }
+input{
+  width: 100%;
+}
 
 footer{
                background-color: var(--primarycolor);
