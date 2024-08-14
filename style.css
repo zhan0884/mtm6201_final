@@ -78,7 +78,18 @@ body{
                color: var(--secondarycolor) !important;
 }
 .icon_container{
-  width: 50px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.6em;
+}
+.icon{
+  width: 3em;
+}
+
+.greencat{
+  font-size: 12px;
 }
 ul a{
   color: var(--secondarycolor) !important;
@@ -98,6 +109,11 @@ button{
                
 }
 
+button:hover{
+  background-color: white;
+  color: var(--tertiarycolor);
+}
+
 ul{
   color: var(--secondarycolor);
 }
@@ -113,4 +129,11 @@ input{
 
 footer{
                background-color: var(--primarycolor);
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  
 }
