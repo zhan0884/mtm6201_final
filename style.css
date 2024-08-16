@@ -70,7 +70,7 @@ body{
                color: var(--secondarycolor) !important;
 
 }
-.banner{
+.bannertext{
                
                display: flex;
                flex-direction: column;
@@ -82,8 +82,17 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.6em;
+  margin: 1em;
 }
+
+.secondary{
+  font-size: 17px;
+}
+/* hamburger size */
+span{
+  width: 40px!important;
+}
+
 .icon{
   width: 3em;
 }
@@ -126,6 +135,13 @@ footer img{
 input{
   width: 100%;
 }
+.preview{
+  padding: 1em;
+}
+.contactform{
+  width: 300px;
+  border-radius: 20px;
+}
 
 footer{
                background-color: var(--primarycolor);
@@ -134,6 +150,198 @@ footer{
 
 @media screen and (min-width: 768px) {
 
+  /* hamburger size */
+  .icon_container{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+  }
+
+  span{
+    width: 60px!important;
+    height: 100px!important;
+  }
+  
+  nav{
+    height: 100px;
+  }
+  .dropdown{
+    height: 100px;
+  }
+  .menu{
+    height: 100px;
+  }
+  .icon{
+    width: 7em;
+    padding: 5px;
+  }
+  
+  .greencat{
+    font-size: 20px;
+  }
+
+
+
+  /* banner */
+  .banner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+  }
+  /* text size */
+  .title{
+    font-size: 70px;
+  }
+
+  .phragraph{
+    font-size: 25px;
+  }
+.contact{
+  width: 220px;
+  height: 90px;
+  font-size: 30px;
+}
+.projects{
+  font-size: 30px;
+}
+.preview{
+  font-size: 40px;
+  padding: 1em;
+}
+.social{
+  width: 70px;
+  height: 70px !important;
+}
+.contactform{
+  width: 400px;
+  border-radius: 20px;
+}
+  
+}
+
+@media screen and (min-width: 992px) {
+
+  /* nav */
+  .navigation{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .menu{
+    height: 100px;
+  }
+  .icon{
+    width: 7em;
+    padding: 5px;
+  }
+  
+  .greencat{
+    font-size: 20px;
+  }
+
+
+
+  
+  /* banner layout */
+  .banner{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: start;
+    padding-top: 140px;
+  }
+  .bannertext{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+.container01{
+  width: 700px;
+}
+
+  /* text size */
+  .title{
+    font-size: 50px;
+    text-align: left;
+  }
+
+  .phragraph{
+    font-size: 25px;
+    text-align: left;
+  }
+.contact{
+  width: 220px;
+  height: 70px;
+  font-size: 26px;
+}
+.projects{
+  font-size: 30px;
+}
+.preview{
+  font-size: 40px;
+  padding: 1em;
+}
+.social{
+  width: 70px;
+  height: 70px !important;
+}
+.contactform{
+  width: 400px;
+  border-radius: 20px;
+}
+
+/* preview layout */
+.project{
+  display: flex;
+  flex-direction: row;
+}
+.web{
+  width: 2000px;
+}
+
+/* =========about=========== */
+.about{
+  display: flex;
+  flex-direction: column;
+  
+}
+.portrait{
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.introduction{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* ===============contact========== */
+
+.contactlayout{
+  display: flex;
+  flex-direction: row;
+
+}
+#contactcenter{
+  text-align: center;
+}
+#title{
+  text-align: left !important;
+  margin-left: 60px;
+}
+#button{
+  margin-left: 200px !important;
+}
+.illustration{
+  padding-top: 500px;
+}
+#socialicon{
+  justify-content: left !important;
+}
 
   
 }
