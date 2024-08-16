@@ -241,6 +241,10 @@ footer{
     font-size: 20px;
   }
 
+  #hamburger{
+    display: none !important;
+  }
+
 
 
   
@@ -335,6 +339,7 @@ footer{
 }
 #button{
   margin-left: 200px !important;
+  margin-top: 60px;
 }
 .illustration{
   padding-top: 500px;
