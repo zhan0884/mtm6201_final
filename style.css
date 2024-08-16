@@ -88,7 +88,7 @@ body{
 .secondary{
   font-size: 17px;
 }
-/* hamburger size */
+/* hamburger */
 span{
   width: 40px!important;
 }
@@ -102,6 +102,14 @@ span{
 }
 ul a{
   color: var(--secondarycolor) !important;
+}
+
+header nav{
+  display: none;
+}
+
+header #hamburger{
+  display: block;
 }
 
                
@@ -182,6 +190,10 @@ footer{
     font-size: 20px;
   }
 
+  header #hamburger{
+    display: block;
+  }
+
 
 
   /* banner */
@@ -240,11 +252,13 @@ footer{
   .greencat{
     font-size: 20px;
   }
-
-  #hamburger{
-    display: none !important;
-  }
-
+ header #hamburger{
+  display: none;
+ }
+ .desktopnav{
+  display: flex;
+  flex-direction: row;
+}
 
 
   
