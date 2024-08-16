@@ -252,13 +252,7 @@ footer{
   .greencat{
     font-size: 20px;
   }
- header #hamburger{
-  display: none;
- }
- .desktopnav{
-  display: flex;
-  flex-direction: row;
-}
+
 
 
   
